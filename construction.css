@@ -1,6 +1,7 @@
 body{
-    background-repeat: repeat;
-	background-image: url("/img/header-v4.svg");
+  background-repeat: repeat;
+	background-image: url("img/header-v4.svg");
+  height: 100vh;
 }
 
 .logo{
@@ -11,19 +12,18 @@ body{
 }
 
 
-.heading{
-    color: #53575a;
-    text-align: center;
-    font-weight: 600;
-	font-size: 2rem;
-	line-height: 2.5rem;
-	font-family: "Crimson Pro"
-  }
   
-.text{
-    color: #53575a;
-	font: 400 1rem/1.625rem "Source Code Pro", monospace;
-    text-align: center;
+.text-container {
+  text-align: center; /* Center aligns the text within the container */
+}
+
+.text {
+  color: #53575a;
+  font: 400 1.2rem/1.5rem "Source Code Pro", monospace;
+  display: inline-block; /* Allows the text to be centered */
+  background-color: #EDE8E5;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 
@@ -31,12 +31,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust as needed */
+    height: 60vh; /* Adjust as needed */
   }
   
   .svg-container {
     position: relative;
-    width: 25rem;
+    width: 50rem;
     height: 100%;
   }
   
