@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 499.82 225.65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #d0cbcd;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="112.83" x2="499.82" y2="112.83" gradientUnits="userSpaceOnUse">
+      <stop offset=".06" stop-color="#ede8e5"/>
+      <stop offset=".98" stop-color="#ede8e5"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-1" width="499.82" height="225.65"/>
+      <g>
+        <rect class="cls-2" x="24.99" width=".74" height="224.92"/>
+        <rect class="cls-2" x="49.98" width=".74" height="224.92"/>
+        <rect class="cls-2" width=".74" height="224.92"/>
+        <rect class="cls-2" x="74.97" width=".74" height="224.92"/>
+        <rect class="cls-2" x="99.96" width=".74" height="224.92"/>
+        <rect class="cls-2" x="124.95" width=".74" height="224.92"/>
+        <rect class="cls-2" x="149.94" width=".74" height="224.92"/>
+        <rect class="cls-2" x="174.94" width=".74" height="224.92"/>
+        <rect class="cls-2" x="199.93" width=".74" height="224.92"/>
+        <rect class="cls-2" x="224.92" width=".74" height="224.92"/>
+        <rect class="cls-2" x="249.91" width=".74" height="224.92"/>
+        <rect class="cls-2" x="274.9" width=".74" height="224.92"/>
+        <rect class="cls-2" x="299.89" width=".74" height="224.92"/>
+        <rect class="cls-2" x="324.88" width=".74" height="224.92"/>
+        <rect class="cls-2" x="349.87" width=".74" height="224.92"/>
+        <rect class="cls-2" x="374.86" width=".74" height="224.92"/>
+        <rect class="cls-2" x="399.85" width=".74" height="224.92"/>
+        <rect class="cls-2" x="424.84" width=".74" height="224.92"/>
+        <rect class="cls-2" x="449.83" width=".74" height="224.92"/>
+        <rect class="cls-2" x="474.82" width=".74" height="224.92"/>
+        <polyline class="cls-2" points="0 225.65 0 224.92 499.82 224.92 499.82 225.65"/>
+        <rect class="cls-2" x="0" y="199.93" width="499.82" height=".74"/>
+        <rect class="cls-2" y="174.93" width="499.82" height=".74"/>
+        <rect class="cls-2" y="149.94" width="499.82" height=".74"/>
+        <rect class="cls-2" y="124.95" width="499.82" height=".74"/>
+        <rect class="cls-2" y="99.96" width="499.82" height=".74"/>
+        <rect class="cls-2" y="74.97" width="499.82" height=".74"/>
+        <rect class="cls-2" y="49.98" width="499.82" height=".74"/>
+        <rect class="cls-2" y="24.99" width="499.82" height=".74"/>
+        <rect class="cls-2" width="499.82" height=".74"/>
+      </g>
+    </g>
+  </g>
+</svg>
