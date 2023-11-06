@@ -48,147 +48,147 @@ body{
 
   #svg1 {
     animation-name: reveal;
-    animation-duration: 0.5s;
-    animation-delay: 0s;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
      animation-fill-mode: forwards;
   }
 
   #svg2 {
     animation-name: reveal;
-    animation-duration: 0.5s;
-    animation-delay: 0.1s;
+    animation-duration: 4s;
+    animation-delay: 0.2s;
      animation-fill-mode: forwards;
   }
 
-  .#svg3 {
+  #svg3 {
     animation-name: reveal;
-    animation-duration: 0.5s;
-    animation-delay: 0.2s;
+    animation-duration: 4s;
+    animation-delay: 0.4s;
      animation-fill-mode: forwards;
   }
 
   #svg4 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 0.3s;
      animation-fill-mode: forwards;
   }
 
   #svg5 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 0.4s;
      animation-fill-mode: forwards;
   }
 
   #svg6 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 0.5s;
      animation-fill-mode: forwards;
   }
 
   #svg7 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 0.6s;
      animation-fill-mode: forwards;
   }
 
   #svg8 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 0.7s;
      animation-fill-mode: forwards;
   }
 
   #svg9 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 0.8s;
      animation-fill-mode: forwards;
   }
 
   #svg10 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 0.9s;
      animation-fill-mode: forwards;
   }
 
   #svg11 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1s;
      animation-fill-mode: forwards;
   }
 
   #svg12 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.1s;
      animation-fill-mode: forwards;
   }
 
   #svg13 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.2s;
      animation-fill-mode: forwards;
   }
 
   #svg14 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.3s;
      animation-fill-mode: forwards;
   }
 
   #svg15 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.4s;
      animation-fill-mode: forwards;
   }
 
   #svg16 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.5s;
      animation-fill-mode: forwards;
   }
 
   #svg17 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.6s;
      animation-fill-mode: forwards;
     }
 
   #svg18 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.7s;
      animation-fill-mode: forwards;
   }
 
   #svg19 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.8s;
      animation-fill-mode: forwards;
   }
 
   #svg20 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 1.9s;
      animation-fill-mode: forwards;
   }
 
   #svg21 {
     animation-name: reveal;
-    animation-duration: 0.5s;
+    animation-duration: 4s;
     animation-delay: 2s;
      animation-fill-mode: forwards;
   }
@@ -199,10 +199,14 @@ body{
     0% {
       opacity: 0;
     }
-    100% {
+    10% {
       opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
     }
   }
 
-
-  
