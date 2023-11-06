@@ -20,6 +20,18 @@ body{
   border-radius: 10px;
 }
 
+.email-link {
+  color: #53575a;
+  transition: color 0.3s;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: red;
+  text-decoration: none;
+}
+
+
 
 
 
@@ -209,4 +221,3 @@ body{
       opacity: 0;
     }
   }
-
