@@ -4,34 +4,30 @@ body{
   height: 100vh;
 }
 
-.logo{
-    
-    justify-content: center;
-    align-items: center;
-    
-}
 
-
-  
 .text-container {
-  text-align: center; /* Center aligns the text within the container */
+  text-align: center;
+  z-index: 10;
+  position: relative;
 }
 
 .text {
   color: #53575a;
   font: 400 1.2rem/1.5rem "Source Code Pro", monospace;
-  display: inline-block; /* Allows the text to be centered */
+  display: inline-block;
   background-color: #EDE8E5;
   padding: 5px 10px;
   border-radius: 10px;
 }
 
 
+
+
 .loading-animation {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh; /* Adjust as needed */
+    height: 60vh;
   }
   
   .svg-container {
@@ -47,130 +43,166 @@ body{
     opacity: 0;
   }
   
-  /* Keyframe animation for the first SVG item */
-  .svg-item:nth-child(1) {
-    animation: reveal1 1s steps(1, end) 0s forwards;
-  }
-  .svg-item:nth-child(2) {
-    animation: reveal1 1s steps(1, end) 0.1s forwards;
-  }
-  .svg-item:nth-child(3) {
-    animation: reveal1 1s steps(1, end) 0.2s forwards;
-  }
-  .svg-item:nth-child(4) {
-    animation: reveal1 1s steps(1, end) 0.3s forwards;
-  }
-  .svg-item:nth-child(5) {
-    animation: reveal1 1s steps(1, end) 0.4s forwards;
-  }
-  .svg-item:nth-child(6) {
-    animation: reveal1 1s steps(1, end) 0.5s forwards;
+  
+  /* keyframe animation for logo*/
+
+  #svg1 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+     animation-fill-mode: forwards;
   }
 
-  .svg-item:nth-child(7) {
-    animation: reveal1 1s steps(1, end) 0.6s forwards;
+  #svg2 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.1s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(8) {
-    animation: reveal1 1s steps(1, end) 0.7s forwards;
+
+  .#svg3 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(9) {
-    animation: reveal1 1s steps(1, end) 0.8s forwards;
+
+  #svg4 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(10) {
-    animation: reveal1 1s steps(1, end) 0.9s forwards;
+
+  #svg5 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.4s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(11) {
-    animation: reveal1 1s steps(1, end) 1s forwards;
+
+  #svg6 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.5s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(12) {
-    animation: reveal1 1s steps(1, end) 1.1s forwards;
+
+  #svg7 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.6s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(13) {
-    animation: reveal1 1s steps(1, end) 1.2s forwards;
+
+  #svg8 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.7s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(14) {
-    animation: reveal1 1s steps(1, end) 1.3s forwards;
+
+  #svg9 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.8s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(15) {
-    animation: reveal1 1s steps(1, end) 1.4s forwards;
+
+  #svg10 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 0.9s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(16) {
-    animation: reveal1 1s steps(1, end) 1.5s forwards;
+
+  #svg11 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(17) {
-    animation: reveal1 1s steps(1, end) 1.6s forwards;
+
+  #svg12 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.1s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(18) {
-    animation: reveal1 1s steps(1, end) 1.7s forwards;
+
+  #svg13 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.2s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(19) {
-    animation: reveal1 1s steps(1, end) 1.8s forwards;
+
+  #svg14 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.3s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(20) {
-    animation: reveal1 1s steps(1, end) 1.9s forwards;
+
+  #svg15 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.4s;
+     animation-fill-mode: forwards;
   }
-  
-  .svg-item:nth-child(21) {
-    animation: reveal1 1s steps(1, end) 2s forwards, restart 1s steps(1, end) 23s infinite;
+
+  #svg16 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.5s;
+     animation-fill-mode: forwards;
   }
-  
-  /* Add keyframes for the reveal animation */
-  
-  /* ... */
-  
-  @keyframes restart {
-    0% {
-      opacity: 1;
+
+  #svg17 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.6s;
+     animation-fill-mode: forwards;
     }
-    100% {
+
+  #svg18 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.7s;
+     animation-fill-mode: forwards;
+  }
+
+  #svg19 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.8s;
+     animation-fill-mode: forwards;
+  }
+
+  #svg20 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 1.9s;
+     animation-fill-mode: forwards;
+  }
+
+  #svg21 {
+    animation-name: reveal;
+    animation-duration: 0.5s;
+    animation-delay: 2s;
+     animation-fill-mode: forwards;
+  }
+
+
+  /* keyframes */
+  @keyframes reveal {
+    0% {
       opacity: 0;
     }
-  }
-  
-  @keyframes reveal1 {
-    0% {
-      opacity: 0;
-    }
     100% {
       opacity: 1;
     }
   }
-  
-  @keyframes reveal2 {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  /* Add more keyframes for the rest of the SVG items */
-  
-  /* Restart the animation on completion */
-  .svg-item:last-child {
-    animation: restart 1s steps(1, end) 21s infinite;
-  }
-  
-  @keyframes restart {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
+
+
   
